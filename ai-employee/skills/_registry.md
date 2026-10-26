@@ -18,6 +18,7 @@
 | リサーチ・情報収集 | 「調べて」「リサーチ」「情報収集」「競合調査」 | skills/research/SKILL.md |
 | コンテンツ作成 | 「SNS」「ブログ」「記事」「投稿」「コンテンツ」 | skills/content-creation/SKILL.md |
 | 秘書業務（スケジュール・メール・議事録タスク化・ブリーフィング） | 「予定」「スケジュール」「メール」「返信」「下書き」「今日の予定」「ブリーフィング」 | skills/secretary/SKILL.md |
+| 営業戦略・案件パイプライン管理 | 「案件進捗」「営業戦略」「新規開拓」「ターゲット顧客」「案件トラッカー」「エージェント対応」 | skills/sales-pipeline/SKILL.md |
 
 ## 要求整理・要求仕様化について
 - 「要求定義」「要求仕様」「要件定義」が絡むタスクは、独自のSKILL.mdを持たず、既存の requirements-engineering スキル（IREB CPRE・JIS X 0166等に準拠）をそのまま呼び出す
