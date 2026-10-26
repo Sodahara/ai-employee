@@ -1,0 +1,24 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "mkdir -p /tmp/claude-ai-employee-hooks && jq -r '.session_id // \"default\"' | { read -r sid; date +%s > \"/tmp/claude-ai-employee-hooks/mem-start-${sid:-default}\"; }"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.session_id // \"default\"' | { read -r sid; f=\"/tmp/claude-ai-employee-hooks/mem-start-${sid:-default}\"; start=0; [ -f \"$f\" ] && start=$(cat \"$f\"); updated=0; for m in memory/task-log.md memory/feedback-log.md memory/learnings.md; do if [ -f \"$m\" ]; then mt=$(stat -f %m \"$m\" 2>/dev/null || stat -c %Y \"$m\" 2>/dev/null); if [ -n \"$mt\" ] && [ \"$mt\" -gt \"$start\" ]; then updated=1; fi; fi; done; if [ \"$updated\" -eq 0 ]; then printf '{\"decision\":\"block\",\"reason\":\"memory/task-log.md・feedback-log.md・learnings.mdのいずれも未更新です。CLAUDE.mdの自動記録ルールに従い、タスク記録をmemory/に追記してから終了してください。\"}'; else printf '{}'; fi; }"
+          }
+        ]
+      }
+    ]
+  }
+}
