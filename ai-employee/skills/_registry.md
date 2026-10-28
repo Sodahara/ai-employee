@@ -24,6 +24,7 @@
 | クライアント案件の継続調査（技術リサーチ・競合動向トラッキング／新規テーマ発掘） | 「MizLinx」「競合動向」「九大OIP」「研究シーズ」「事業化のボトルネック」「研究予算獲得」「継続調査」「定点観測」「新しい技術調べて」「新規テーマ探して」 | skills/tech-research-tracking/SKILL.md |
 | 専門領域の世界最先端キャッチアップ（フロンティア・スカウティング） | 「最先端の情報をキャッチアップして」「世界最先端の動向を調べて」「スキルをアップデートして」「ハードテック/アジャイル/LLM/設計工学/要求工学/PLMの最新動向」 | skills/frontier-knowledge-scouting/SKILL.md |
 | アジャイル×システムズエンジニアリング×上流要求分析（ハードテック・防衛領域） | 「アジャイル」「スクラム」「SAFe」をハードウェア・防衛開発の文脈で／「要求分析」「要求工学」「システムズエンジニアリング」「MBSE」で不確実性・変化対応力の観点が必要な場合 | skills/agile-systems-engineering/SKILL.md |
+| memory/のアーカイブ・整理（トークン消費対策） | 「メモリを整理して」「task-log.mdが長くなってきた」「アーカイブして」。または memory/task-log.md・feedback-log.md が150行を超えた場合 | skills/memory-maintenance/SKILL.md |
 
 ## 要求整理・要求仕様化について
 - 「要求定義」「要求仕様」「要件定義」が絡むタスクは、独自のSKILL.mdを持たず、既存の requirements-engineering スキル（IREB CPRE・JIS X 0166等に準拠）をそのまま呼び出す
