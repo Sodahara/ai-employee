@@ -57,6 +57,7 @@
 - 中小企業・ハードテック企業特有の制約（資金・人材・規制・事業承継）を一般論のフレームワークだけで終わらせず必ず加味する
 
 ## 関連スキル
+- 提案書・資料そのものの作成（構成・本文・体裁）は skills/document-creation/SKILL.md が担当する。本スキルはその資料に経営診断の視点を**追加レビュー**する位置づけで、ゼロから資料を作ることはしない
 - 新規事業・市場性の深い分析が必要な場合（Toy-studio自身またはクライアントの事業戦略検討）→ skills/business-strategy-research/SKILL.md
 - 日本語の資料・コメント文の推敲 → japanese-writing-technique スキル
 - 議事録からの経営課題抽出 → skills/meeting-notes/SKILL.md
